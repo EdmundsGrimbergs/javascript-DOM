@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+Elementus es paslēpu  ar CSS/CSS stilu "initial"
