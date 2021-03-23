@@ -1,4 +1,14 @@
 window.addEventListener("load", function(){
+  const button = document.querySelector("#more_text_link")
+  const textToShow = document.querySelector("#more_text_content")
+  textToShow.style.display = "none"
+
+
+  button.addEventListener('click', function(e) {
+      textToShow.style.display = "initial"
+      button.style.display = "none"
+    })
+  });
 
   // Here is some pseudo-code to help you get started:
 
@@ -13,5 +23,3 @@ window.addEventListener("load", function(){
   //    from a hidden value to a shown value.
 
   // 5. Also modify the DOM to hide the "More info..." link.
-  
-});
